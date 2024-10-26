@@ -4,20 +4,26 @@
     font-weight: 400;
     font-style: normal;
 }
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo{
-    justify-content: left;
+    margin-right:auto;
 }
 .head{
     display:flex;
     justify-content: center;
 }
 ul{
+    list-style: none;
     display:flex;
-    justify-content: right;
-    padding:10px 30px;
+    margin:0;
+    padding:0;
 }
 li{
-    margin:1rem;
-    list-style: none;
+    margin-left:20px;
+    
 }
 
