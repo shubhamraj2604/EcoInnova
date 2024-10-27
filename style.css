@@ -6,27 +6,16 @@
     font-style: normal;
 }
 body{
-background-image: url('./bg2.jpg');
-height:100vh;
-position:relative;
-background-position: center center;
-background-repeat:no-repeat;
-background-size: max(1300px,120vh);
-margin:0;
-}
-section{
-    height:100vh;
-}
-#second{
-    background-image: url('./bg10.jpeg');
-    /*opacity:0.65;*/
-    height:100vh;
+    background-image: url('./images/bg2.jpg');
+    height:120vh;
     position:relative;
     background-position: center center;
     background-repeat:no-repeat;
-    background-size: max(1300px,120vh);  
-    margin:0; 
-    z-index:-1;
+    background-size: max(1300px,120vh);
+    margin:0;
+}
+section{
+    height:100vh;
 }
 header{
     display:flex;
@@ -86,10 +75,23 @@ p{
     font-size: 30px;
     font-weight: bold;
 }
+#second{
+    background-image: url('./images/bg10.jpeg');
+    /*opacity:0.65;*/
+    height:100vh;
+    position:relative;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: max(1300px,100vh);  
+    margin:0; 
+    z-index:-1;
+}
 div.container.row{
     min-height: fit-content;
     justify-content: center;
-    padding:7rem 0rem 0rem 0rem;
+    background-color: rgba(196, 210, 169, 0.484);
+    height:100vh;
+    /*padding:7rem 0rem 0rem 0rem;*/
 }
 .card{
     background-color: #c6d1c8;
@@ -117,7 +119,6 @@ a{
     text-decoration: none;
 }
 .btn.btn-primary{
-    /*background-color:#1ccf40;*/
     background: linear-gradient(to right, #81f140, #53de46, #09682c);
     background-position: 60%;
     background-position-x: 20%;
@@ -142,7 +143,7 @@ a{
    text-align:center;
 }
 h3{
-    color:#022810;
+    color:#043817;
     margin-bottom:2px;
     font-weight: 500;
 }
