@@ -22,6 +22,21 @@ app.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname, 'about.html'));
 });
 
+// Route for the flowering plants page
+app.get('/flowering', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/flowering.html'));
+});
+
+// Route for the fruiting plants page
+app.get('/fruiting', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/fruiting.html'));
+});
+
+// Route for the indoor plants page
+app.get('/indoor', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/indoor.html'));
+});
+
 // Route to handle requests from the frontend and forward them to the Flask server
 app.post('/recommendation_API/app', async (req, res) => {
     try {
